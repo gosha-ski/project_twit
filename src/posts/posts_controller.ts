@@ -79,7 +79,7 @@ class PostsController{
 				response.send("suggested")
 
 			}else{
-				response.send("you dont join group")
+				response.send("you dont consist in group")
 			}
 		}catch(error){
 			console.log(error)
